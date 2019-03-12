@@ -41,7 +41,7 @@ public class PriorityQueue {
 		return getRight(index)<capacity;
 	}
 	public void swap(int x, int y) {
-		Element temp = collection[0];
+		Element temp = collection[x];
 		collection[x] = collection[y];
 		collection[y] = temp;
 	}
